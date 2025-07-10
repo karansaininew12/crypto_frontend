@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'https://crypto-backend-new-osvy.onrender.com/api';
+// const API_URL = 'https://crypto-backend-new-osvy.onrender.com/api';
+const API_URL = 'http://localhost:5000/api';
 
 export const fetchCoins = async () => {
     try {
